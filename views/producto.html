@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <!-- <img src="/images/zapatilla.jpg" alt="Zapatillas Nike"> -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Grupo 12</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Mujer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Niños</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Marcas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="card mb-3 contenedorDetalleProducto" style="max-width: 40 vw;"> <!-- Cambie el max-width:540px-->
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/images/Nike_Revolution.jpg" class="img-fluid rounded-start" alt="Zapatillas Nike"> 
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Nike Revolution 6 0454 Nike 6 Cs</h5>
+              <p class="card-text">$31.459</p>
+              <p class="cuotas">6x $5.243,17 sin interés</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div>
+            <label>Elije tu talle</label>
+            <button type="button" class="btn btn-dark">Selecciona una Opción</button>
+            <button type="button" class="btn btn-outline-success"><a href="http://localhost:3001/carrito">Agrega al carrito</a></button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h5>Productos que pueden interesarte</h5>
+      </div>
+      <span class="productosRelacionados">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Nike_Running.jpg" class="card-img-top" alt="Zapatillas Nike Running">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Nike Running</h5>
+              <p class="card-text">$45.589</p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Nike_Air.jpg" class="card-img-top" alt="Zapatillas Nike Air">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Nike Running</h5>
+              <p class="card-text">$59.779</p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Adidas_Coreracer.jpg" class="card-img-top" alt="Zapatillas Adidas Coreracer">
+            <div class="card-body">
+              <h5 class="card-title">Zapatillas Adidas Coreracer</h5>
+              <p class="card-text">$ 19.499</p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+        </div>
+    </span>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</main>
+  </body>
+</html>

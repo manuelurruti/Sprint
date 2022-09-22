@@ -1,0 +1,414 @@
+*{
+  font-family: 'Akshar', sans-serif;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1920px){
+.pagina-de-cabecera {
+  display: block;
+  color: #fff;
+  background-color: #080808;
+  padding: 10px;
+}
+
+#nav-bara {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand{
+  display:none;
+}
+.ultimo{
+  color: #fff;
+  text-decoration: none;
+}
+.itembarra{
+  display:none;
+}
+.ulprimero {
+    color: white;
+    margin-top:1px;
+    display:flex;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+    align-items: right;
+}
+
+.inicios {
+    display: inline;
+    margin: 0px;
+    padding-left: 30px;
+}
+.Envoltura{
+  display:flex;
+  align-items: flex-end;
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  color: #000;
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.button-search {
+  text-align: center;
+  color: grey;
+  font-size: 1em;
+  margin-left: 5px;
+  border: none;
+  background: none;
+}
+.cancelar{
+  display:none;
+}
+input {
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+  border-right: solid 1px grey;
+}
+.container{
+  display:flex;
+  justify-content: end;
+  text-align: end;
+}
+.enlaces:hover{
+  color:rgb(161, 158, 158);
+}
+.enlaces{ 
+  text-decoration: none;
+  color:#fff;
+}
+.enlaces2:hover{
+  color:rgb(83, 83, 83);
+}
+
+
+.h2{
+  text-align: center;
+}
+.classul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:0%;
+  margin:0px;
+}
+.classli{
+  display:block;
+  text-decoration: none;
+}
+.classA:hover{
+  color:rgb(83, 83, 83);
+}
+.classA{
+  display:flex;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color:#000;
+}
+.mb-3{
+  padding-left: 30px;
+  }
+  .text-right {
+    display:flex;
+    align-content: left;
+    text-align: left;
+
+}
+.logos{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(211, 205, 205)
+}
+.footer{
+  background-color: #000;
+  color: white;
+  font-size: 25px;
+}
+
+.lifooter{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:4%;
+ padding-top:13px;
+  text-decoration: none;
+}
+
+.caja2{
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+.containerz{
+  width: 100%;
+  padding-top:150px;
+}
+.dropdown {
+    display: none;
+}
+.cuatro{
+  display:flex;
+  justify-content: space-between;
+}
+.carrusel{
+  display:flex;
+  justify-content: center;
+}
+.ache3{
+  display:flex;
+  justify-content: center;
+}
+.medio{
+  display:flex;
+  justify-content: center;
+}
+ .menu{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+.btn-primary2 {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 1rem!important;
+}
+
+.navegacion {
+    background: #080808;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 80px;
+  font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FFF;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: rgb(83, 83, 83);
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .5s;
+  z-index: 10;
+  border-radius: 5%;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #080808;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.navbar-toggler{display:none;}
+}
+@media screen  and (min-width: 768px) and (max-width: 1279px){
+.Envoltura{
+  display:inline;
+  text-align: center;
+}
+
+.cuatro{
+  display:flex;
+  justify-content: space-between;
+}
+ .menu{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+.dropdown {
+    display: none;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+  font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+.search {
+    display: flex;
+    justify-content: start;
+    color: #000;
+    background-color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.containerz{
+  width: 90%;
+  padding-top:200px;
+}
+.mb-3{
+  padding-left: 30px;
+}
+.caja2{
+  display: flex;
+  flex-direction: column;
+}
+.politics{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:6%;
+ padding-top:13px;
+  text-decoration: none;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 630px){
+  .itembarra{
+  display:inline;
+}
+  .pagina-de-cabecera{
+ 
+  background-color: #080808;
+  }
+  .menu > li{
+	 display:flex;
+   width:20%;
+
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 10px;
+  font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+.ulprimero{
+  display:flex;
+  flex-direction: column-reverse;
+
+  
+}
+.inicios{
+  display:flex;
+  flex-direction: row;
+}
+
+.menu{
+  display:none;
+}
+.logos{
+  display:flex;
+justify-content: space-around;
+}
+.top{
+  height: 30px;
+  width:10%;
+}
+.h2{
+  display: none;
+}
+.classul{
+  display:none;
+}
+.classA{
+  display:none;
+}
+.caja2{
+  display:flex;
+  flex-direction: column;
+}
+.politics{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:8%;
+ padding-top:13px;
+  text-decoration: none;
+}
+}
+@media screen and (min-width: 630px) and (max-width: 768px) {
+  .navegacion{
+    width: 100%;
+  }
+.menu > li > a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.contenete{
+  padding-bottom: 40px;
+}
+.classA{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.caja2{
+  display: flex;
+  flex-direction: column;
+  
+}
+.politics{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:7%;
+ padding-top:13px;
+  text-decoration: none;
+}
+
+
+
+}

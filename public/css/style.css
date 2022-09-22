@@ -1,0 +1,91 @@
+@media screen and (max-width:1920px) {
+  
+}
+.cuotas{
+  color:green;
+}
+
+.productosRelacionados{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 15px;
+}
+.contenedorDetalleProducto{
+  border:solid 0.1rem grey;
+  border-radius: 1rem;
+  margin:5px;
+}
+/* Estilos página carrito*/
+.textoDerecha{
+  text-align: right;
+}
+
+.inline{
+  display:inline;
+}
+.botonCentrado{
+  display:flex;
+  justify-content: center;
+  background-color: #2c882c;/*ver como modificar hover del boton carrito a green*/
+}
+.CantidadArticuloCarrito{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+.inputCantidad{
+  height: 1 vh;
+  width: 10vw;
+  border:solid 0.1rem grey;
+  border-radius: 0.5rem;
+}
+.footerCarrito{
+  background-color: #000;
+  color: white;
+  font-size: 1rem;
+}
+.footer{
+  background-color: #000;
+  color: white;
+  font-size: 25px;
+}
+
+.lifooter{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:4%;
+ padding-top:13px;
+  text-decoration: none;
+}
+
+.caja2{
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+.politics{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:6%;
+ padding-top:13px;
+  text-decoration: none;
+}
+.logos{
+  display:flex;
+justify-content: space-around;
+}
+@media screen and (min-width: 360px) and (max-width: 768px){
+.politics{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+ padding-left:8%;
+ padding-top:13px;
+  text-decoration: none;
+}
+  
+}
